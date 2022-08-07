@@ -1,0 +1,20 @@
+name: Man10Market2.0
+version: '${project.version}'
+main: yusama125718.man10market.Man10Market
+api-version: 1.17
+
+commands:
+  mce:
+    description: MCE
+    usage: §l[§a§lM§f§lC§d§lE§f§l]§7/mce でGUIを開く
+
+permissions:
+  mce.op:
+    default: op
+  mce.player:
+    default: true
+  mce.trader:
+    default: op
+
+depend:
+  - Vault
